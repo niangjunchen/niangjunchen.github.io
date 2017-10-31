@@ -52,33 +52,193 @@ Email: ncchen [AT] caltech.edu</span></td>
 <ol>
 	<br>	
 	<li> N. Chen, J. Comden, Z. Liu, A. Gandhi, A. Wierman, <a href="./papers/OCO_using_prediction.pdf"> <b> "Using predictions in online optimization: looking forward with an eye on the past,"</b> </a> ACM Sigmetrics 2016. 
-		<!-- <a href=# onclick="toggleDisplay()">[abstract] </a>
-	<div id="myDIV">
+		 <a href="#" onclick="toggleDisplay('using-predictions'); return false;">[show/hide abstract] </a>
+	<div id="using-predictions" class="abstract">
 		We consider online convex optimization (OCO) problems with switching costs and noisy predictions. While the design of online algorithms for OCO problems has received considerable attention, the design of algorithms in the context of noisy predictions is largely open.  To this point, two promising algorithms have been proposed: Receding Horizon Control (RHC) and Averaging Fixed Horizon Control (AFHC).  The comparison of these policies is largely open.
 		AFHC has been shown to provide better worst-case performance, while RHC outperforms AFHC in many realistic settings. In this paper, we introduce a new class of policies, Committed Horizon Control (CHC), that generalizes both RHC and AFHC.  We provide average-case analysis and concentration results for CHC policies, yielding the first analysis of RHC for OCO problems with noisy predictions.  Further, we provide explicit results characterizing the optimal CHC policy as a function of properties of the prediction noise, e.g., variance and correlation structure.  Our results provide a characterization of when AFHC outperforms RHC and vice versa, as well as when other CHC policies outperform both RHC and AFHC.
-	</div> -->
+	</div> 
 	</li><br>
-	<li>N. Ruhi, N. Chen, K. Dvijotham, A. Wierman <a href="./papers/aggregator_price_manipulation.pdf"> <b> "Opportunities for Price Manipulations for Aggregators in Electricity Markets," </b></a> ACM Greenmetrics 2016. Best student paper</li><br>
-	
+	<li>N. Ruhi, N. Chen, K. Dvijotham, A. Wierman <a href="./papers/aggregator_price_manipulation.pdf"> <b> "Opportunities for Price Manipulations for Aggregators in Electricity Markets," </b></a> ACM Greenmetrics 2016. <b>Best student paper</b>
+	<a href="#" onclick="toggleDisplay('aggregator'); return false;">[show/hide abstract] </a>
+		<div id="aggregator" class="abstract">
+			Aggregators are playing an increasingly crucial role for integrating
+			renewable generation into power systems. However,
+			the intermittent nature of renewable generation makes
+			market interactions of aggregators difficult to monitor and
+			regulate, raising concerns about potential market manipulations.
+			In this paper, we address this issue by quantifying
+			the profit an aggregator can obtain through strategic curtailment
+			of generation in an electricity market. We show
+			that, while the problem of maximizing the benefit from curtailment
+			is hard in general, efficient algorithms exist when
+			the topology of the network is radial (acyclic). Further, we
+			highlight that significant increases in profit can be obtained
+			through strategic curtailment in practical settings.
+		</div>
+	</li><br>
 	
 	<li> N. Chen, X. Ren, S. Ren, A. Wierman,  <a href="./papers/Greening_multi_tenant_DCDR.pdf"> <b>"Greening multi-tenant data center demand response, "</b></a> IFIP WG7.3 Performance 2015. 
+		<a href="#" onclick="toggleDisplay('greening-dcdr'); return false;">[show/hide abstract] </a>
+		<div id="greening-dcdr" class="abstract">
+			Data centers have emerged as promising resources for demand response, particularly for
+			emergency demand response (EDR), which saves the power grid from incurring blackouts
+			during emergency situations. However, currently, data centers typically participate in EDR
+			by turning on backup (diesel) generators, which is both expensive and environmentally
+			unfriendly. In this paper, we focus on ‘‘greening’’ demand response in multi-tenant data
+			centers, i.e., colocation data centers, by designing a pricing mechanism through which the
+			data center operator can efficiently extract load reductions from tenants during emergency
+			periods for EDR. In particular, we propose a pricing mechanism for both mandatory and
+			voluntary EDR programs, ColoEDR, that is based on parameterized supply function bidding
+			and provides provably near-optimal efficiency guarantees, both when tenants are pricetaking
+			and when they are price-anticipating. In addition to analytic results, we extend the
+			literature on supply function mechanism design, and evaluate ColoEDR using trace-based
+			simulation studies. These validate the efficiency analysis and conclude that the pricing
+			mechanism is both beneficial to the environment and to the data center operator (by
+			decreasing the need for backup diesel generation), while also aiding tenants (by providing
+			payments for load reductions).
+		</div>
 	<br>
 	<ul><li><a href="./papers/MAMA_colodr.pdf">Extended abstract</a> appears at the Workshop on MAthematical performance Modeling and Analysis (<b>MAMA</b>), 2015.  </li></ul>
 </li>
 <br>
-<li>N. Chen, A. Agarwal, A. Wierman, S. Barman, L. L. H. Andrew, <a href="./papers/OCO_with_Predictions.pdf"><b>"Online Convex Optimization Using Predictions,"</b></a> ACM SIGMETRICS 2015.</li><br>
+<li>N. Chen, A. Agarwal, A. Wierman, S. Barman, L. L. H. Andrew, <a href="./papers/OCO_with_Predictions.pdf"><b>"Online Convex Optimization Using Predictions,"</b></a> ACM SIGMETRICS 2015.
+	<a href="#" onclick="toggleDisplay('oco-prediction'); return false;">[show/hide abstract] </a>
+		<div id="oco-prediction" class="abstract">
+			Making use of predictions is a crucial, but under-explored,
+			area of online algorithms. This paper studies a class of online
+			optimization problems where we have external noisy
+			predictions available. We propose a stochastic prediction
+			error model that generalizes prior models in the learning
+			and stochastic control communities, incorporates correlation
+			among prediction errors, and captures the fact that predictions
+			improve as time passes. We prove that achieving sublinear
+			regret and constant competitive ratio for online algorithms
+			requires the use of an unbounded prediction window
+			in adversarial settings, but that under more realistic stochastic
+			prediction error models it is possible to use Averaging
+			Fixed Horizon Control (AFHC) to simultaneously achieve
+			sublinear regret and constant competitive ratio in expectation
+			using only a constant-sized prediction window. Furthermore,
+			we show that the performance of AFHC is tightly
+			concentrated around its mean.
+		</div>
+</li><br>
 
-<li> N. Chen, L. Gan, S. H. Low, A. Wierman <a href="./papers/mpc_load_control_distributional_analysis.pdf"><b>"Distributional Analysis for Model Predictive Deferrable Load Control,"</b></a> IEEE Conference on Decision and Control (CDC) 2014. </li>
+<li> N. Chen, L. Gan, S. H. Low, A. Wierman <a href="./papers/mpc_load_control_distributional_analysis.pdf"><b>"Distributional Analysis for Model Predictive Deferrable Load Control,"</b></a> IEEE Conference on Decision and Control (CDC) 2014. 
+	<a href="#" onclick="toggleDisplay('distributional-analysis-load-control'); return false;">[show/hide abstract] </a>
+		<div id="distributional-analysis-load-control" class="abstract">
+			Deferrable load control is essential for handling
+			the uncertainties associated with the increasing penetration of
+			renewable generation. Model predictive control has emerged
+			as an effective approach for deferrable load control, and has
+			received considerable attention. Though the average-case performance
+			of model predictive deferrable load control has been
+			analyzed in prior works, the distribution of the performance
+			has been elusive. In this paper, we prove strong concentration
+			results on the load variation obtained by model predictive
+			deferrable load control. These results highlight that the typical
+			performance of model predictive deferrable load control is
+			tightly concentrated around the average-case performance.
+		</div>
+</li>
 <br>
 <li> N. Chen, T. Q. S. Quek, C. W. Tan, <a href="./papers/ev_charging_stsp.pdf"><b>"Electric Vehicle Charging in Smart Grid: Optimality and Valley-Filling Algorithms,"</b></a> IEEE Trans. on Selected Topics in Signal Processing 2014. 
+	<a href="#" onclick="toggleDisplay('ev-charging-optimality'); return false;">[show/hide abstract] </a>
+		<div id="ev-charging-optimality" class="abstract">
+			Electric vehicles (EVs) offer an attractive long-term
+			solution to reduce the dependence on fossil fuel and greenhouse
+			gas emission. At the same time, charging a large fleet of EVs
+			distributed across the residential area poses a challenge for the
+			distribution network. In this paper, we formulate this problem
+			by building on the optimal power flow (OPF) framework to
+			model the network constraints that arises from charging EVs
+			at different locations. To overcome the computational challenge
+			when the control horizon is long, we study a nested optimization
+			approach to decompose the joint OPF and EV charging problem.
+			We characterize the optimal EV charging schedule to be a valley-
+			filling profile, which allows us to develop an efficient offline
+			algorithm with significantly lower computational complexity
+			compared to centralized interior point solvers. Furthermore,
+			we propose a decentralized online algorithm that dynamically
+			tracks the valley-filling profile. Our algorithms are evaluated on
+			the IEEE 14 bus system with real residential load profiles, and
+			the simulations show that our online algorithm performs almost
+			optimally under different settings.
+		</div>
 </li>
 <br>
 <li> Z. Liu, A. Wierman, Y. Chen, B. Razon, N. Chen, <a href="./papers/dcdr.pdf"><b>"Data Center Demand Response: Avoiding the Coincident Peak via Workload Shifting and Local Generation,"</a></b> IFIP Performance 2013.  
+	<a href="#" onclick="toggleDisplay('dcdr-coincidental'); return false;">[show/hide abstract] </a>
+		<div id="dcdr-coincidental" class="abstract">
+			Demand response is a crucial aspect of the future smart grid. It has the potential to provide significant peak demand reduction
+			and to ease the incorporation of renewable energy into the grid. Data centers’ participation in demand response is becoming
+			increasingly important given their high and increasing energy consumption and their flexibility in demand management compared
+			to conventional industrial facilities. In this paper, we study two demand response schemes to reduce a data center’s peak loads
+			and energy expenditure: workload shifting and the use of local power generation. We conduct a detailed characterization study
+			of coincident peak data over two decades from Fort Collins Utilities, Colorado and then develop two algorithms for data centers
+			by combining workload scheduling and local power generation to avoid the coincident peak and reduce the energy expenditure.
+			The first algorithm optimizes the expected cost and the second one provides a good worst-case guarantee for any coincident peak
+			pattern, workload demand and renewable generation prediction error distributions. We evaluate these algorithms via numerical
+			simulations based on real world traces from production systems. The results show that using workload shifting in combination
+			with local generation can provide significant cost savings (up to 40% under the Fort Collins Utilities charging scheme) compared
+			to either alone.
+		</div>
 </li>
 <br>
-<li>L. Gan, A. Wierman, U. Topcu, N. Chen, S. Low <a href="./papers/dlc_eenergy.pdf"><b>"Real-Time Deferrable Load Control: Handling Uncertainties of Renewable Generation,"</a></b>  ACM e-Energy 2013. </li>
+<li>L. Gan, A. Wierman, U. Topcu, N. Chen, S. Low <a href="./papers/dlc_eenergy.pdf"><b>"Real-Time Deferrable Load Control: Handling Uncertainties of Renewable Generation,"</a></b>  ACM e-Energy 2013. 
+	<a href="#" onclick="toggleDisplay('dlc-real-time'); return false;">[show/hide abstract] </a>
+		<div id="dlc-real-time" class="abstract">
+			Real-time demand response is an essential tool for handling
+			the uncertainties associated with the increasing penetration
+			of renewable generation. Traditionally, demand response has
+			been focused on large industrial and commercial loads, however
+			it is expected that a large number of small residential
+			loads such as air conditioners, dish washers, and electric vehicles
+			will also participate in the coming years. The electricity
+			consumption of these smaller loads, which we call deferrable
+			loads, can be shifted over time, and can thus be used
+			(in aggregate) to compensate for the random fluctuations in
+			renewable generation. In this paper, we propose a real-time
+			distributed deferrable load control algorithm to reduce the
+			variance of aggregate load (load minus renewable generation)
+			by shifting the power consumption of deferrable loads
+			to periods with high renewable generation. At every time
+			step, the algorithm minimizes the expected aggregate load
+			variance with updated predictions. We prove that the suboptimality
+			of the algorithm vanishes quickly as time horizon
+			expands. Further, we evaluate the algorithm via trace-based
+			simulations.
+		</div>
+</li>
 <br>
-<li>N. Chen, T. Q. S. Quek, C. W. Tan<a href="./papers/ev_charging_smartgridcomm.pdf"><b> "Optimal Charging of Electric Vehicles in Smart Grid: Characterization and Valley-Filling Algorithms,"</a></b> IEEE SmartGridComm 2012. </li>
+<li>N. Chen, T. Q. S. Quek, C. W. Tan<a href="./papers/ev_charging_smartgridcomm.pdf"><b> "Optimal Charging of Electric Vehicles in Smart Grid: Characterization and Valley-Filling Algorithms,"</a></b> IEEE SmartGridComm 2012. 
+	<a href="#" onclick="toggleDisplay('ev-charging-characterization'); return false;">[show/hide abstract] </a>
+		<div id="ev-charging-characterization" class="abstract">
+			Electric vehicles (EVs) offer an attractive long-term
+			solution to reduce the dependence on fossil fuel and greenhouse
+			gas emission. However, a fleet of EVs with different EV battery
+			charging rate constraints, that is distributed across a smart
+			power grid network requires a coordinated charging schedule
+			to minimize the power generation and EV charging costs. In
+			this paper, we study a joint optimal power flow (OPF) and EV
+			charging problem that augments the OPF problem with charging
+			EVs over time. While the OPF problem is generally nonconvex
+			and nonsmooth, it is shown recently that the OPF problem can be
+			solved optimally for most practical power grid networks using its
+			convex dual problem. Building on this strong duality result, we
+			study a nested optimization approach to decompose the joint OPF
+			and EV charging problem. We characterize the optimal offline
+			EV charging schedule to be a valley-filling profile, which allows
+			us to develop an optimal offline algorithm with computational
+			complexity that is significantly lower than centralized interior
+			point solvers. Furthermore, we propose a decentralized online
+			algorithm that dynamically tracks the valley-filling profile. Our
+			algorithms are evaluated on the IEEE 14 bus system, and the
+			simulations show that the online algorithm performs almost near
+			optimality (< 1% relative difference from the offline optimal
+			solution) under different settings.
+		</div>
+</li>
 <br>
 
 
