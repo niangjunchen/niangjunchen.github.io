@@ -4,18 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Niangjun Chen</title>
-	<style>
-	body {margin: 0 auto;
-		padding: 0;
-		width: 80%;
-	}
-	#myDIV {
-		padding: 10px 100px;
-		width: 80%;
-		display: none;
-	}
-		
-	</style>
+	<link href="default.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	
@@ -295,9 +284,9 @@ Email: ncchen [AT] caltech.edu</span></td>
 
 
 <script>
-function toggleDisplay() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
+function toggleDisplay(obj) {
+    var x = document.getElementById(obj);
+    if (x.style.display != "block") {
         x.style.display = "block";
     } else {
         x.style.display = "none";
