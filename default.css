@@ -1,0 +1,10 @@
+body {margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+.abstract {
+	padding: 10px 100px;
+	width: 80%;
+	display: none;
+}
+		
