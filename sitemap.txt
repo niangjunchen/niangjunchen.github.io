@@ -1,0 +1,26 @@
+https://niangjunchen.github.io/CV_Niangjun_Chen.pdf
+https://niangjunchen.github.io/index.html
+https://niangjunchen.github.io/papers/DCDR_Multi_Tenant.pdf
+https://niangjunchen.github.io/papers/Greening_multi_tenant_DCDR.pdf
+https://niangjunchen.github.io/papers/MAMA_colodr.pdf
+https://niangjunchen.github.io/papers/Niangjun_Chen_2017.pdf
+https://niangjunchen.github.io/papers/OCO_prediction.pdf
+https://niangjunchen.github.io/papers/OCO_using_prediction.pdf
+https://niangjunchen.github.io/papers/OCO_with_Predictions.pdf
+https://niangjunchen.github.io/papers/aggregator_manipulation.pdf
+https://niangjunchen.github.io/papers/aggregator_price_manipulation.pdf
+https://niangjunchen.github.io/papers/dcdr.pdf
+https://niangjunchen.github.io/papers/deferrable_load_control_mpc_analysis.pdf
+https://niangjunchen.github.io/papers/dlc_eenergy.pdf
+https://niangjunchen.github.io/papers/ev_charging_smartgridcomm.pdf
+https://niangjunchen.github.io/papers/ev_charging_stsp.pdf
+https://niangjunchen.github.io/papers/master_thesis.pdf
+https://niangjunchen.github.io/papers/mpc_load_control_distributional_analysis.pdf
+https://niangjunchen.github.io/slides/INFORMS2015_slides.pdf
+https://niangjunchen.github.io/slides/INFORMS2015_slides.pptx
+https://niangjunchen.github.io/slides/Online Convex Optimization Using Predictions.pdf
+https://niangjunchen.github.io/slides/Online Convex Optimization Using Predictions.pptx
+https://niangjunchen.github.io/slides/Using_predictions_online_algorithm.pdf
+https://niangjunchen.github.io/slides/Using_predictions_online_algorithm.pptx
+https://niangjunchen.github.io/slides/performance2015_presentation.pdf
+https://niangjunchen.github.io/slides/performance2015_presentation.pptx
