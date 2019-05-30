@@ -51,7 +51,14 @@ Email: niangjun [AT] gmail.com</span></td>
 	<span style="font-family:veranda,sans-serif; font-size:normal">
 <ol>
 	<br>
-	<li> N. Chen*, G. Goel*, A. Wierman, <a href="https://arxiv.org/pdf/1803.10366.pdf"> "Smoothed Online Convex Optimization in High Dimensions via Online Balanced Descent" </a>, Conference on Learning Theory (COLT), 2018, accepted. <i>*Equal contribution</i>
+	<li> J. Comden, S. Yao, N. Chen, H. Xing, Z. Liu<a href="./papers/OCO_Cloud_Resource_Provisioning.pdf"> "Online Optimization in Cloud Resource Provisioning: Predictions, Regrets, and Algorithms" </a>, Sigmetrics, 2019
+			 <a href="#" onclick="toggleDisplay('oco_cloud'); return false;">[show/hide abstract] </a>
+		<div id="oco_cloud" class="abstract">
+			Due to mainstream adoption of cloud computing and its rapidly increasing usage of energy, the efficient management of cloud computing resources has become an important issue. A key challenge in managing the resources lies in the volatility of their demand. While there have been a wide variety of online algorithms (e.g. Receding Horizon Control, Online Balanced Descent) designed, it is hard for cloud operators to pick the right algorithm. In particular, these algorithms vary greatly on their usage of predictions and performance guarantees. This paper aims at studying an automatic algorithm selection scheme in real time. To do this, we empirically study the prediction errors from real-world cloud computing traces. Results show that prediction errors are distinct from different prediction algorithms, across virtual machines, and over the time horizon. Based on these observations, we propose a simple prediction error model and prove upper bounds on the dynamic regret of several online algorithms. We then apply the empirical and theoretical results to create a simple online meta-algorithm that chooses the best algorithm on the fly. Numerical simulations demonstrate that the performance of the designed policy is close to that of the best algorithm in hindsight.
+		</div> 
+		</li>
+	<br>
+	<li> N. Chen*, G. Goel*, A. Wierman, <a href="https://arxiv.org/pdf/1803.10366.pdf"> "Smoothed Online Convex Optimization in High Dimensions via Online Balanced Descent" </a>, Conference on Learning Theory (COLT), 2018 <i>*Equal contribution</i>
 			 <a href="#" onclick="toggleDisplay('oco_dimension'); return false;">[show/hide abstract] </a>
 		<div id="oco_dimension" class="abstract">
 			We study Smoothed Online Convex Optimization, a version of online convex optimization where the learner incurs a penalty for changing her actions between rounds. Given a known Ω(\sqrt{d}) lower bound on the competitive ratio of any online algorithm, where d is the dimension of the action space, we ask under what conditions this bound can be beaten. We introduce a novel algorithmic framework for this problem, Online Balanced Descent (OBD), which works by iteratively projecting the previous point onto a carefully chosen level set of the current cost function so as to balance the switching costs and hitting costs. We demonstrate the generality of the OBD framework by showing how, with different choices of "balance," OBD can improve upon state-of-the-art performance guarantees for both competitive ratio and regret; in particular, OBD is the first algorithm to achieve a dimension-free competitive ratio, 3+O(1/α), for locally polyhedral costs, where α measures the "steepness" of the costs. We also prove bounds on the dynamic regret of OBD when the balance is performed in the dual space that are dimension-free and imply that OBD has sublinear static regret.
@@ -310,9 +317,6 @@ Email: niangjun [AT] gmail.com</span></td>
 </tr>
 </tbody>
 </table> -->
-<script src="//t1.extreme-dm.com/f.js" id="eXF-niangjun-0" async defer></script></div>
-
-
 <script>
 function toggleDisplay(obj) {
     var x = document.getElementById(obj);
@@ -323,6 +327,5 @@ function toggleDisplay(obj) {
     }
 }
 </script>
-
 </body>
 </html>
